@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/logo(1).png" />
+
+    <title>Manzilim &mdash; qulay uylar topish uchun qulay website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="img/logo(1).png" alt="picture" class="logo" />
+
+        <form action="#" class="search">
+          <input
+            type="search"
+            class="search__input"
+            placeholder="Search Hotels"
+          />
+
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">0</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">0</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              class="user-nav__user-photo"
+              src="img/user.jpg"
+              alt="user photo"
+            />
+            <span class="user-nav__user-name">Jonas</span>
+          </div>
+        </nav>
+      </div>
+      <div class="component">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Homes</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a
+                href="https://asror07.github.io"
+                target="_blank"
+                class="side-nav__link"
+              >
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2023 Manzilim. All rights reserved</div>
+        </nav>
+        <main class="hotel-view">
+          <div class="galary">
+            <figure class="galary__item">
+              <img
+                src="img/hotel-1.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Toshkent, Mirobod 24</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+
+            <figure class="galary__item">
+              <img
+                src="img/hotel-2.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Toshkent, Chilonzor 24</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+
+            <figure class="galary__item">
+              <img
+                src="img/hotel-3.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Toshkent, Chilonzor 23</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+          </div>
+
+          <div class="galary">
+            <figure class="galary__item">
+              <img
+                src="img/hotel-1.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Samarqand, Chosh 109</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+
+            <figure class="galary__item">
+              <img
+                src="img/hotel-2.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Samarqand, Chosh 109</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+
+            <figure class="galary__item">
+              <img
+                src="img/hotel-3.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Samarqand, Chosh 109</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+          </div>
+
+          <div class="galary">
+            <figure class="galary__item">
+              <img
+                src="img/hotel-1.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Samarqand, Chosh 109</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+
+            <figure class="galary__item">
+              <img
+                src="img/hotel-2.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Samarqand, Chosh 109</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+
+            <figure class="galary__item">
+              <img
+                src="img/hotel-3.jpg"
+                alt="Hotel img 1"
+                class="galary__photo"
+              />
+
+              <div class="galary__caption">
+                <svg class="galary__icon-location">
+                  <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <p class="galary__text">Samarqand, Chosh 109</p>
+                <div class="galary__star">
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="galary__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+              </div>
+            </figure>
+          </div>
+
+          <div class="popup hidden">
+            <div class="overlay hidden"></div>
+            <div class="popup__content">
+              <div class="galary">
+                <figure class="galaty__item">
+                  <img
+                    src="img/hotel-1.jpg"
+                    alt="Hotel img 1"
+                    class="galary__photo"
+                  />
+                </figure>
+
+                <figure class="galaty__item">
+                  <img
+                    src="img/hotel-2.jpg"
+                    alt="Hotel img 1"
+                    class="galary__photo"
+                  />
+                </figure>
+
+                <figure class="galaty__item">
+                  <img
+                    src="img/hotel-3.jpg"
+                    alt="Hotel img 1"
+                    class="galary__photo"
+                  />
+                </figure>
+              </div>
+              <div class="galary">
+                <figure class="galaty__item">
+                  <img
+                    src="img/hotel-1.jpg"
+                    alt="Hotel img 1"
+                    class="galary__photo"
+                  />
+                </figure>
+
+                <figure class="galaty__item">
+                  <img
+                    src="img/hotel-2.jpg"
+                    alt="Hotel img 1"
+                    class="galary__photo"
+                  />
+                </figure>
+
+                <figure class="galaty__item">
+                  <img
+                    src="img/hotel-3.jpg"
+                    alt="Hotel img 1"
+                    class="galary__photo"
+                  />
+                </figure>
+              </div>
+              <div class="overview">
+                <h1 class="overview__heading">Mirobod 24</h1>
+                <div class="overview__star">
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                </div>
+
+                <div class="overview__location">
+                  <svg class="overview__icon-location">
+                    <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                  </svg>
+                  <button class="btn-inline">O'zbekiston, Toshkent</button>
+                </div>
+
+                <div class="overview__rating">
+                  <div class="overview__rating-average">9.2</div>
+                  <div class="overview__rating-count">42 votes</div>
+                </div>
+              </div>
+              <div class="details">
+                <div class="description">
+                  <p class="paragraph">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Tenetur, nulla quisquam laborum impedit, adipisci illum
+                    nobis, corrupti numquam natus suscipit quasi cumque maiores
+                    assumenda beatae! Natus illum sint totam reiciendis, rerum
+                    facilis laudantium dolore qui.
+                  </p>
+                  <p class="paragraph">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Tenetur, nulla quisquam laborum impedit, adipisci illum
+                    nobis, corrupti numquam natus suscipit quasi cumque maiores
+                    assumenda beatae! Natus illum sint totam reiciendis, rerum
+                    facilis laudantium dolore qui.
+                  </p>
+
+                  <ul class="list">
+                    <li class="list__item">Close to the beach</li>
+                    <li class="list__item">Breakfast included</li>
+                    <li class="list__item">Free airport shuttle</li>
+                    <li class="list__item">Free wifi in all rooms</li>
+                    <li class="list__item">Lorem ipsum dolor sit amet.</li>
+                    <li class="list__item">Lorem ipsum dolor sit.</li>
+                    <li class="list__item">Lorem, ipsum dolor.</li>
+                    <li class="list__item">Lorem ipsum dolor sit.</li>
+                  </ul>
+                  <div class="recommend">
+                    <p class="recommend__count">
+                      Someone and 3 other people recommended
+                    </p>
+                    <div class="recommend__friends">
+                      <img
+                        src="img/user-3.jpg"
+                        alt="Friend 3"
+                        class="recommend__photo"
+                      />
+                      <img
+                        src="img/user-4.jpg"
+                        alt="Friend 4"
+                        class="recommend__photo"
+                      />
+                      <img
+                        src="img/user-5.jpg"
+                        alt="Friend 5"
+                        class="recommend__photo"
+                      />
+                      <img
+                        src="img/user-6.jpg"
+                        alt="Friend 6"
+                        class="recommend__photo"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="user-review">
+                  <figure class="review">
+                    <blockquote class="review__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo eos dolores magni. Qui, sed quia?
+                    </blockquote>
+                    <figcaption class="review__user">
+                      <img
+                        src="img/user-1.jpg"
+                        alt="User 1"
+                        class="review__photo"
+                      />
+                      <div class="review__box">
+                        <p class="review__name">Jon Do</p>
+                        <p class="review__date">23-fevral, 2022</p>
+                      </div>
+                      <div class="review__rating">8.5</div>
+                    </figcaption>
+                  </figure>
+
+                  <figure class="review">
+                    <blockquote class="review__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo eos dolores magni. Qui, sed quia?
+                    </blockquote>
+                    <figcaption class="review__user">
+                      <img
+                        src="img/user-2.jpg"
+                        alt="User 1"
+                        class="review__photo"
+                      />
+                      <div class="review__box">
+                        <p class="review__name">Sara Malik</p>
+                        <p class="review__date">16-sentabr, 2021</p>
+                      </div>
+                      <div class="review__rating">9</div>
+                    </figcaption>
+                  </figure>
+
+                  <button class="btn-inline">
+                    Show All <span>&rarr;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
